@@ -95,7 +95,8 @@ def build_vector_store():
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=CHUNK_SIZE,
         chunk_overlap=CHUNK_OVERLAP,
-        separators=["\n\n", "\n", ". ", " ", ""]
+        separators=["\n\nQ:", "\n\n", "\n", ". ", " ", ""],
+        keep_separator=True,
     )
     chunks = splitter.split_documents(docs)
     print(f"Created {len(chunks)} chunks")
