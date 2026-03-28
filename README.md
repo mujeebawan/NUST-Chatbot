@@ -4,23 +4,6 @@ An offline, RAG-powered admissions chatbot for NUST (National University of Scie
 
 Built for the **NUST Islamabad Local Chatbot Competition 2026**.
 
-## Screenshots
-
-### Clean UI with System Monitor
-![Initial UI](screenshots/01_initial_ui.png)
-
-### Answering Admissions Questions
-![NET Exam](screenshots/02_net_exam.png)
-
-### Accurate Factual Answers (No Negative Marking - Verified from nust.edu.pk/faqs/)
-![Negative Marking](screenshots/03_negative_marking.png)
-
-### Fee Structure Information
-![Fee Structure](screenshots/04_fee_structure.png)
-
-### Honest Uncertainty Handling
-![Honesty Test](screenshots/06_honesty_test.png)
-
 ## Architecture
 
 ```
