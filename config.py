@@ -9,8 +9,8 @@ PDF_DATA_DIR = os.path.join(DATA_DIR, "pdfs")
 VECTOR_STORE_DIR = os.path.join(DATA_DIR, "vector_store")
 MODEL_DIR = os.path.join(BASE_DIR, "models")
 
-# Embedding model (small, fast, runs on CPU)
-EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+# Embedding model (local copy, no internet needed)
+EMBEDDING_MODEL_NAME = os.path.join(MODEL_DIR, "embeddings")
 
 # LLM settings
 LLM_MODEL_PATH = os.path.join(MODEL_DIR, "model.gguf")
