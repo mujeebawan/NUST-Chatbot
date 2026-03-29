@@ -6,6 +6,9 @@ Built for the **NUST Islamabad Local Chatbot Competition 2026**.
 
 ## Demo
 
+### Main Interface with System Monitor
+![Main Interface](screenshots/00_main_interface.jpg)
+
 ### Answering Eligibility Criteria
 ![Eligibility](screenshots/01_eligibility_answer.jpg)
 
